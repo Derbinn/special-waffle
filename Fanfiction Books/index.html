@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="CssFile/text.css" rel="stylesheet" />
+    <link href="CssFile/sstyle2.css" rel="stylesheet" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <title>Fanfiction</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Fanfiction logo" src="Img/Logo/Logo2.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#fanfiction">Fanfiction</a></li>
+          <li><a class="main-nav-link" href="#authors">Authors</a></li>
+          <li><a class="main-nav-link" href="#popular">Popular</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Fanfiction books</h1>
+            <p class="hero-description">
+              Here you will find fanfictions that are interested and you can
+              also create your own stories based on your favorite works.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm">Fandom</a>
+            <a href="#" class="btn btn--outline">Authors</a>
+          </div>
+          <div class="hero-img-box">
+            <img src="Img/Main.jpg" class="hero-img" alt="Books" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-fanfiction" id="fanfiction">
+        <div class="container">
+          <span class="subheading">Fanfiction</span>
+          <h2 class="heading-secondary">Works</h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="'fanfic">
+            <img
+              src="Img/Fanfiction/couple.jpg"
+              alt="fanfic1"
+              class="fanfic-img"
+            />
+
+            <div class="fanfic-content">
+              <div class="fanfic-tags">
+                <span class="tag tag--romantic">Romantic story</span>
+              </div>
+              <p class="fanfic-title">Meet me on Hallway</p>
+              <ul class="fanfic-attributes">
+                <li class="fanfic-attribute">
+                  <p>
+                    They accidentally bumped into each other on the subway and
+                    in Alice's bag was a stranger's diary. What will happen if
+                    all this was not an accident?
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="fanfic">
+            <img
+              src="Img/Fanfiction/detective.jpg"
+              class="fanfic-img"
+              alt="fanfic2"
+            />
+
+            <div class="fanfic-content">
+              <div class="fanfic-tags">
+                <span class="tag tag--dark">Dark</span>
+                <span class="tag tag--detective">Detective</span>
+              </div>
+              <p class="fanfic-title">Under the Rain</p>
+              <ul class="fanfic-attributes">
+                <li class="fanfic-attribute">
+                  <p>
+                    When Derek was ten, his parents were killed. He has no
+                    memory of those terrible days. And now 25 years have passed
+                    and his son disappears without a trace
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-authors" id="authors">
+        <div class="authors-container">
+          <span class="subheading">Authors</span>
+          <h2 class="heading-secondary">Popular authors</h2>
+
+          <div class="authors">
+            <figure class="authors">
+              <img
+                class="authors-img"
+                alt="Photo author 1"
+                src="Img/Authors/author 1.jpg"
+              />
+              <blockquote class="authors-text">
+                You can just call me Kam. Enjoy your reading, and always
+                remember: at the end of any story, no one is waiting for you
+                with confetti and fanfare. If you don't like it - don't overdo
+                it and force yourself to read on, quit halfway through. It
+                doesn't get any easier for any author if you unenthusiastically
+                read his work through and through and feel relieved at the last
+                chapter.
+              </blockquote>
+              <p class="authors-name">&mdash; Kam.J</p>
+            </figure>
+
+            <figure class="authors">
+              <img
+                class="authors-img"
+                alt="Photo author 2"
+                src="Img/Authors/author 2.jpg"
+              />
+              <blockquote class="authors-text">
+                Only those who are worse than us think badly of us, and those
+                who are better than us are simply not up to us. In addition to
+                higher education, you need to have at least an average mind and,
+                at a minimum, primary education.
+              </blockquote>
+              <p class="authors-name">&mdash; KSamurai77</p>
+            </figure>
+
+            <figure class="authors">
+              <img
+                class="authors-img"
+                alt="Photo author 3"
+                src="Img/Authors/author 3.jpg"
+              />
+              <blockquote class="authors-text">
+                Refusing moral and social responsibility, bury me under the
+                bottom rung of the career ladder.
+              </blockquote>
+              <p class="authors-name">&mdash; La_Blue</p>
+            </figure>
+
+            <figure class="authors">
+              <img
+                class="authors-img"
+                alt="Photo author 4"
+                src="Img/Authors/author 4.jpg"
+              />
+              <blockquote class="authors-text">
+                Everything that I write, I consider pampering, graphomania and
+                nothing more. I do not pretend to originality, I use stamps. The
+                logic of the plot is lame. I don't know how to describe the
+                events that take place, most of the works are based on
+                dialogues. I can't write big chapters. The humor is specific.
+                Justifying no, but there is a mat. Was, is and will be.
+              </blockquote>
+              <p class="authors-name">&mdash; DarkKnight_3</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-popular" id="popular">
+        <div class="container">
+          <span class="subheading">Popular</span>
+          <h2 class="heading-secondary">The most popular works of this week</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Peace and only peace by Dreamy8</h3>
+            <p class="step-description">
+              Luke was exposed to a mental artifact... Or rather, it was a
+              "mental first aid kit combined with a younglings' textbook" by
+              Darth Revan. Lord Vader felt the consequences.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="Img/Popular/FanficLuke.jpg"
+              class="step-img"
+              alt="Photo of Luke"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Reflection by Paper_Town</h3>
+            <p class="step-description">
+              I look at my reflection and I don't recognize myself. Why do I see
+              instead of my usual black hair - light, almost like silver hair
+              ...
+            </p>
+            <div class="step-img-box">
+              <img
+                src="Img/Popular/guy.jpg"
+                class="step-img"
+                alt="Photo of guy"
+              />
+            </div>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">The art of dialogue by John.K</h3>
+            <p class="step-description">
+              Well, that's an exaggeration. Tonight I know more or less exactly.
+              It goes without saying that if a brick falls on my head on
+              Bronnaya... - A brick for no reason, - the stranger interrupted
+              impressively, - will never fall on anyone's head. In particular, I
+              assure you, he does not threaten you in any way. You will die a
+              different death. Mikhail Bulgakov, The Master and Margarita.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="Img/Popular/dialogue.jpg"
+              class="step-img"
+              alt="Photo of dialogue"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 by FanfictionBooks, Inc. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
